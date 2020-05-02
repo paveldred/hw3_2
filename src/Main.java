@@ -6,9 +6,7 @@ public class Main {
 
         if (refillKops <= 100000) {
             bonus = 0;
-        }
-
-        else {
+        } else {
             bonus = refillKops / 100; //в копейках
         }
 
